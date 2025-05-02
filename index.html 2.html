@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    :root {
+      --bg: #fefaf6;
+      --header-bg: #c3f584;
+      --card-bg: #fff;
+      --primary: #241f1c;
+      --text: #201f1f;
+      --muted: #888;
+      --border: #ddd;
+    }
+	
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.2;
+    }
+
+    header {
+      background-color: var(--header-bg);
+      padding: 30px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      color: var(--primary);
+    }
+
+    .logo img {
+      max-height: 200px;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+      font-size: 0.95rem;
+    }
+
+    nav {
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: regular;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .post {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .post-header {
+      font-weight: bold;
+      color: var(--primary);
+      margin-bottom: 5px;
+    }
+
+    .post-time {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .post-content {
+      margin: 10px 0;
+      line-height: 1.4;
+    }
+
+    .actions {
+      display: flex;
+      gap: 20px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: var(--header-bg);
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+
+    .bottom-nav a {
+      text-decoration: none;
+      color: var(--primary);
+      font-size: 1.2rem;
+    }
+    
+    .post-container {
+      width: 90%;
+      max-width: 500px;
+      margin: 10px auto;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: #fafafa;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    
+    .profile-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .profile-pic {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+    
+    .profile-name {
+      font-weight: regular;
+      color: #444;
+    }
+    
+    .post-input {
+      width: 90%;
+      min-height: 60px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 10px;
+      resize: vertical;
+      font-size: 1em;
+      font-family: inherit;
+    }
+    
+    .post-button {
+      margin-top: 5px;
+      padding: 10px 10px;
+      background-color: #6b6bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      float: right;
+    }
+    
+    .post-button:hover {
+      background-color: #5858e0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">
+    <img src="DeeperTalk.png" alt="logo">
+   </div>
+</div>
+	</header>
+	
+	<div class="post-container">
+	  <div class="profile-section">
+	    <img src="profilbild.jpg" alt="Profilbild" class="profile-pic">
+	    <span class="profile-name">Anonym 123</span>
+	  </div>
+	  <textarea class="post-input" placeholder="Und, wie geht's dir wirklich?"></textarea>
+	  <button class="post-button">Posten</button>
+	</div>
+	
+  <div class="container">
+    <div class="post">
+      <div class="post-header">User B <span class="post-time">• vor 16 Std.</span></div>
+      <div class="post-content">Ich wünschte, ich könnte manchmal einfach sagen, was ich wirklich denke – ohne Angst vor Bewertung.</div>
+      <div class="actions">
+      <span>💚</span>
+        <span>Kommentieren</span>
+      </div>
+    </div>
+	
+	<div class="post">
+	  <div class="post-header">User C <span class="post-time">• vor 20 Std.</span></div>
+	  <div class="post-content">Heute war ein Tag, an dem ich fast aufgegeben hätte. Aber irgendwie bin ich noch hier.</div>
+	  <div class="actions">
+        <span>💚</span>
+        <span>Kommentieren</span>
+	  </div>
+	</div>
+  
+	<div class="post">
+      <div class="post-header">User D <span class="post-time">• vor 1 Std.</span></div>
+      <div class="post-content">Hey Leute, ich hab den Job!!! Danke für die liebe Unterstützung, ohne euch hätte ich das nicht geschafft.</div>
+      <div class="actions">
+        <span>💚</span>
+        <span>Kommenztieren</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bottom-nav">
+	<a href="#">🛖</a>
+	<a href="#">🔍</a>
+	<a href="#">➕</a>
+	<a href="#">💌</a></a>
+	<a href="#">👤</a>
+  </div>
+
+</body>
+</html>
