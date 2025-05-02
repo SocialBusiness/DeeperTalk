@@ -13,7 +13,7 @@
       --muted: #888;
       --border: #ddd;
     }
-	
+
     body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
@@ -24,7 +24,7 @@
 
     header {
       background-color: var(--header-bg);
-      padding: 30px 30px;
+      padding: 30px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -105,24 +105,24 @@
       color: var(--primary);
       font-size: 1.2rem;
     }
-    
+
     .post-container {
       width: 90%;
       max-width: 500px;
-      margin: 10px auto;
+      margin: 20px auto;
       padding: 10px;
       border: 1px solid #ddd;
       border-radius: 10px;
       background-color: #fafafa;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
-    
+
     .profile-section {
       display: flex;
       align-items: center;
       margin-bottom: 10px;
     }
-    
+
     .profile-pic {
       width: 40px;
       height: 40px;
@@ -130,14 +130,13 @@
       object-fit: cover;
       margin-right: 10px;
     }
-    
+
     .profile-name {
-      font-weight: regular;
       color: #444;
     }
-    
+
     .post-input {
-      width: 90%;
+      width: 100%;
       min-height: 60px;
       border: 1px solid #ccc;
       border-radius: 6px;
@@ -146,7 +145,7 @@
       font-size: 1em;
       font-family: inherit;
     }
-    
+
     .post-button {
       margin-top: 5px;
       padding: 10px 10px;
@@ -157,108 +156,109 @@
       cursor: pointer;
       float: right;
     }
-    
+
     .post-button:hover {
       background-color: #5858e0;
     }
-    
+
     @media (max-width: 768px) {
-    .masthead-heading {
-      font-size: 1.8rem !important;
-      line-height: 1.3;
+      .masthead-heading {
+        font-size: 1.8rem !important;
+        line-height: 1.3;
+      }
+
+      .masthead-subheading {
+        font-size: 1rem !important;
+      }
+
+      #features h2 {
+        font-size: 1.5em;
+      }
     }
-	    
-    .masthead-subheading {
-      font-size: 1rem !important;
-    }
-	    
-    #features h2 {
-      font-size: 1.5em;
-    }
-  }
   </style>
 </head>
 <body>
 
   <header>
-    <div class="container">
-      <div class="logo">
-    <img src="DT.png" alt="logo">
-   </div>
-</div>
-<div style="text-align: center; margin-top: 30px;">
-  <a href="#newsletter" class="btn btn-primary btn-lg" style="background-color: #6c63ff; border: none;">
-    Jetzt vormerken
-  </a>
-</div>
+    <div class="logo">
+      <img src="DT.png" alt="logo">
+    </div>
+    <nav>
+      <a href="#">Start</a>
+      <a href="#">Über uns</a>
+    </nav>
+  </header>
 
-<section id="features" style="padding: 60px 20px; background-color: #f8f9fa;">
-  <div style="max-width: 900px; margin: 0 auto; text-align: center;">
-    <h2 style="margin-bottom: 40px; font-size: 2em;">Was dich bei Empavo erwartet</h2>
-    
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 30px;">
-  <div style="flex: 1 1 250px; padding: 20px;">
-   <h4>Anonymer Austausch</h4>
-   <p>Du brauchst keinen Klarnamen – teile deine Gedanken sicher und frei.</p>
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="#newsletter" class="btn btn-primary btn-lg" style="background-color: #6c63ff; border: none; padding: 10px 20px; color: white; border-radius: 5px;">
+      Jetzt vormerken
+    </a>
   </div>
-  <div style="flex: 1 1 250px; padding: 20px;">
-   <h4>Empathische KI-Begleitung</h4>
-   <p>Unsere KI hört zu, stellt Fragen und hilft dir, dich selbst besser zu verstehen.</p>
+
+  <section id="features" style="padding: 60px 20px; background-color: #f8f9fa;">
+    <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+      <h2 style="margin-bottom: 40px; font-size: 2em;">Was dich bei Empavo erwartet</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 30px;">
+        <div style="flex: 1 1 250px; padding: 20px;">
+          <h4>Anonymer Austausch</h4>
+          <p>Du brauchst keinen Klarnamen – teile deine Gedanken sicher und frei.</p>
+        </div>
+        <div style="flex: 1 1 250px; padding: 20px;">
+          <h4>Empathische KI-Begleitung</h4>
+          <p>Unsere KI hört zu, stellt Fragen und hilft dir, dich selbst besser zu verstehen.</p>
+        </div>
+        <div style="flex: 1 1 250px; padding: 20px;">
+          <h4>Kein Social-Druck</h4>
+          <p>Keine Likes. Kein Ranking. Nur echte Verbindung und Resonanz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="post-container">
+    <div class="profile-section">
+      <img src="profilbild.jpg" alt="Profilbild" class="profile-pic">
+      <span class="profile-name">Anonym 123</span>
+    </div>
+    <textarea class="post-input" placeholder="Und, wie geht's dir wirklich?"></textarea>
+    <button class="post-button">Posten</button>
   </div>
-	
-  <div style="flex: 1 1 250px; padding: 20px;">
-   <h4>Kein Social-Druck</h4>
-   <p>Keine Likes. Kein Ranking. Nur echte Verbindung und Resonanz.</p>
-  </div>
-</div>
-</div>
-</section>
-</header>
-	
-	<div class="post-container">
-	  <div class="profile-section">
-	    <img src="profilbild.jpg" alt="Profilbild" class="profile-pic">
-	    <span class="profile-name">Anonym 123</span>
-	  </div>
-	  <textarea class="post-input" placeholder="Und, wie geht's dir wirklich?"></textarea>
-	  <button class="post-button">Posten</button>
-	</div>
-	
+
   <div class="container">
     <div class="post">
       <div class="post-header">User B <span class="post-time">• vor 16 Std.</span></div>
       <div class="post-content">Ich wünschte, ich könnte manchmal einfach sagen, was ich wirklich denke – ohne Angst vor Bewertung.</div>
       <div class="actions">
-      <span>💚</span>
+        <span>💚</span>
         <span>Kommentieren</span>
       </div>
     </div>
-	
-	<div class="post">
-	  <div class="post-header">User C <span class="post-time">• vor 20 Std.</span></div>
-	  <div class="post-content">Heute war ein Tag, an dem ich fast aufgegeben hätte. Aber irgendwie bin ich noch hier.</div>
-	  <div class="actions">
+
+    <div class="post">
+      <div class="post-header">User C <span class="post-time">• vor 20 Std.</span></div>
+      <div class="post-content">Heute war ein Tag, an dem ich fast aufgegeben hätte. Aber irgendwie bin ich noch hier.</div>
+      <div class="actions">
         <span>💚</span>
         <span>Kommentieren</span>
-	  </div>
-	</div>
-  
-	<div class="post">
+      </div>
+    </div>
+
+    <div class="post">
       <div class="post-header">User D <span class="post-time">• vor 1 Std.</span></div>
       <div class="post-content">Hey Leute, ich hab den Job!!! Danke für die liebe Unterstützung, ohne euch hätte ich das nicht geschafft.</div>
       <div class="actions">
         <span>💚</span>
-        <span>Kommenztieren</span>
+        <span>Kommentieren</span>
       </div>
     </div>
   </div>
-  
+
   <div class="bottom-nav">
-	<a href="#">🛖</a>
-	<a href="#">🔍</a>
-	<a href="#">➕</a>
-	<a href="#">💌</a></a>
-	<a href="#">👤</a>
+    <a href="#">🛖</a>
+    <a href="#">🔍</a>
+    <a href="#">➕</a>
+    <a href="#">💌</a>
+    <a href="#">👤</a>
   </div>
 
 </body>
