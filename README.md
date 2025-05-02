@@ -1,57 +1,44 @@
-<header>
+# DeepTalker – Anonymer, empathischer Austausch ohne Social-Druck
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+DeepTalker ist eine datenschutzfreundliche, KI-gestützte Social-Plattform für alle, die sich nach echter Verbindung, ehrlichen Gesprächen und mentaler Entlastung sehnen – ganz ohne Klarnamen, Bilder oder Likes.
 
-# GitHub Pages
+Features
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
 
-</header>
+Anonymer Austausch:
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+ Keine Klarnamen, keine Profile – sprich frei, ehrlich und sicher.
+- 
 
-## Finish
+*Empathische KI-Begleitung:*
 
-_Congratulations friend, you've completed this course!_
+* Unsere KI hilft dir im Chat, deine Gedanken zu sortieren und dich verstanden zu fühlen.
+- *
 
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
+*Echtes Miteinander:*
 
-Your blog is now live and has been deployed!
+* Kein Like-Zwang, kein Ranking – stattdessen Resonanz, Unterstützung und Entschleunigung.
+- *
 
-Here's a recap of all the tasks you've accomplished in your repository:
+*Moderierter Raum:*
 
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
+* Sicherheit und Schutz stehen an erster Stelle – respektvoller Umgang ist bei uns Standard.
 
-### What's next?
+## Projektstruktur
 
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+Dieses Repository enthält die erste Landingpage- und Feed-Ansicht von Empavo. Aktuell basiert die Umsetzung auf reinem *
 
-<footer>
+*HTML und CSS*
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+* und bildet das Grundgerüst für:
 
----
+- Logo & Header
+- Vorstellung der Kernfunktionen
+- Beitragsposting & anonymer Feed
+- Fixierte mobile Navigation
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+## Installation & Nutzung
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+1. Repository klonen:
+   ```bash
+   git clone https://github.com/dein-benutzername/empavo.git
