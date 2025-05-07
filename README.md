@@ -1,6 +1,6 @@
-# Soacial – Anonymer, empathischer Austausch ohne Social-Druck
+# Søcial – Anonymer, empathischer Austausch ohne Social-Druck
 
-Soacial ist eine datenschutzfreundliche, KI-gestützte Social-Plattform für alle, die sich nach echter Verbindung, ehrlichen Gesprächen und mentaler Entlastung sehnen – ganz ohne Klarnamen, Bilder oder Videos.
+Søcial ist eine datenschutzfreundliche, KI-gestützte Social-Plattform für alle, die sich nach echter Verbindung, ehrlichen Gesprächen und mentaler Entlastung sehnen – ganz ohne Klarnamen, Bilder oder Videos.
 
 Features
 
@@ -26,7 +26,7 @@ Keine Klarnamen, keine Profile – sprich frei, ehrlich und sicher.
 
 ## Projektstruktur
 
-Dieses Repository enthält die erste Landingpage- und Feed-Ansicht von Soacial. Aktuell basiert die Umsetzung auf reinem *
+Dieses Repository enthält die erste Landingpage- und Feed-Ansicht von Søcial. Aktuell basiert die Umsetzung auf reinem *
 
 *HTML und CSS*
 
