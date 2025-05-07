@@ -1,13 +1,13 @@
-# DeepTalker – Anonymer, empathischer Austausch ohne Social-Druck
+# Soacial – Anonymer, empathischer Austausch ohne Social-Druck
 
-DeepTalker ist eine datenschutzfreundliche, KI-gestützte Social-Plattform für alle, die sich nach echter Verbindung, ehrlichen Gesprächen und mentaler Entlastung sehnen – ganz ohne Klarnamen, Bilder oder Likes.
+Soacial ist eine datenschutzfreundliche, KI-gestützte Social-Plattform für alle, die sich nach echter Verbindung, ehrlichen Gesprächen und mentaler Entlastung sehnen – ganz ohne Klarnamen, Bilder oder Videos.
 
 Features
 
 
 Anonymer Austausch:
 
- Keine Klarnamen, keine Profile – sprich frei, ehrlich und sicher.
+Keine Klarnamen, keine Profile – sprich frei, ehrlich und sicher.
 - 
 
 *Empathische KI-Begleitung:*
@@ -26,7 +26,7 @@ Anonymer Austausch:
 
 ## Projektstruktur
 
-Dieses Repository enthält die erste Landingpage- und Feed-Ansicht von Empavo. Aktuell basiert die Umsetzung auf reinem *
+Dieses Repository enthält die erste Landingpage- und Feed-Ansicht von Soacial. Aktuell basiert die Umsetzung auf reinem *
 
 *HTML und CSS*
 
