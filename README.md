@@ -41,4 +41,4 @@ Dieses Repository enthält die erste Landingpage- und Feed-Ansicht von Søcial. 
 
 1. Repository klonen:
    ```bash
-   git clone https://github.com/dein-benutzername/empavo.git
+   git clone https://github.com/dein-benutzername/social.git
